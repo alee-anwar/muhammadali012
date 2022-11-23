@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ecommerce",
-    "slug": "ecommerce",
+    "name": "MidTermLabExam",
+    "slug": "MidTermLabExam",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

@@ -1,12 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { EvilIcons } from '@expo/vector-icons';
 import useFetch from '../CustomHook/fetchHook';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-// import ActionButton from 'react-native-action-button';
-
-
 
 export default function ShopNow({navigation}) {
     const data = useFetch('https://fakestoreapi.com/products');
@@ -21,6 +17,7 @@ export default function ShopNow({navigation}) {
           console.log(error);
         }
       };
+      
     useEffect(() => {
         getlocaldataFromUserDevice();
         
